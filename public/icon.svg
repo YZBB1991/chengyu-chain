@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#fcfcfd"/>
+  <g stroke="#ebeef7" stroke-width="2">
+    <path d="M0 128 H512 M0 256 H512 M0 384 H512 M128 0 V512 M256 0 V512 M384 0 V512"/>
+  </g>
+  <circle cx="256" cy="256" r="120" fill="#bfff5a"/>
+  <text x="256" y="290" font-family="IBM Plex Sans, sans-serif" font-size="120" font-weight="700" fill="#0a0d16" text-anchor="middle">接</text>
+</svg>

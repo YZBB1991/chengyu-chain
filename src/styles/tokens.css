@@ -1,0 +1,107 @@
+/* ============================================================
+   设计 Token — 严格取自 DESIGN.md（Buddy — Style Reference）
+   所有游戏界面只用这些变量，不引入额外色彩/字体/圆角。
+   ============================================================ */
+:root {
+  /* Colors */
+  --color-lime-spark: #bfff5a;
+  --color-cobalt-signal: #1a67fd;
+  --color-forest-depth: #0b3d28;
+  --color-paper-white: #fcfcfd;
+  --color-midnight-ink: #1d2130;
+  --color-carbon: #151720;
+  --color-obsidian: #0a0d16;
+  --color-mist-gray: #ebeef7;
+  --color-slate-edge: #d5d9e8;
+  --color-silver-wash: #d6d6d7;
+  --color-pewter: #6b6d72;
+  --color-graphite: #474950;
+  --color-mint-tint: #d8fbed;
+
+  /* Multicolor stroke palette (feature-card arcs / brushstrokes) */
+  --color-cyan-beam: #46d8ff;
+  --color-mint-pulse: #19f79a;
+  --color-citron-wave: #e5ed38;
+  --color-orchid-glaze: #ff9dec;
+  --color-amber-glow: #ffc650;
+
+  /* Typography — Font Families */
+  --font-ibm-plex-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-ibm-plex-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo,
+    Monaco, Consolas, monospace;
+
+  /* Typography — Scale */
+  --text-caption: 12px;
+  --text-subheading: 18px;
+  --text-heading-sm: 22px;
+  --text-heading: 48px;
+  --text-display: 80px;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing (8px base) */
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-72: 72px;
+  --spacing-96: 96px;
+
+  /* Layout */
+  --page-max-width: 720px; /* 移动端满宽 + 安全区；桌面可居中 */
+  --section-gap: 80px;
+  --card-padding: 24px;
+  --element-gap: 16px;
+
+  /* Border Radius */
+  --radius-images: 8px;
+  --radius-smallcards: 14px;
+  --radius-cards: 24px;
+  --radius-navlinks: 44px;
+  --radius-pills: 9999px;
+  --radius-buttons: 56px;
+
+  /* Shadows */
+  --shadow-subtle: rgba(29, 33, 48, 0.04) 0px 3px 3px -1px,
+    rgba(29, 33, 48, 0.04) 0px 6px 6px -3px,
+    rgba(29, 33, 48, 0.04) 0px 12px 12px -6px,
+    rgba(29, 33, 48, 0.04) 0px 24px 24px -12px,
+    rgba(29, 33, 48, 0.04) 0px 32px 32px -16px;
+  --shadow-subtle-2: rgba(255, 255, 255, 0.72) 0px 1px 0px 0px inset,
+    rgba(29, 33, 48, 0.12) 0px -2px 0px 0px inset,
+    rgba(29, 33, 48, 0.04) 0px 1px 1px -1px,
+    rgba(29, 33, 48, 0.04) 0px 4px 4px -2px;
+  --shadow-subtle-3: rgba(255, 255, 255, 0.72) 0px 0px 0px 1px inset,
+    rgb(213, 217, 232) 0px 0px 0px 1px,
+    rgba(29, 33, 48, 0.03) 0px 1px 1px -1px,
+    rgba(29, 33, 48, 0.05) 0px 3px 3px -2px,
+    rgba(29, 33, 48, 0.03) 0px 5px 5px -3px,
+    rgba(213, 217, 232, 0.22) 0px 5px 5px -2px;
+  --shadow-cyan-glow: rgba(29, 33, 48, 0.08) 0px 0px 0px 1px,
+    rgba(29, 33, 48, 0.04) 0px 1px 1px -1px,
+    rgba(29, 33, 48, 0.04) 0px 2px 2px -1px,
+    rgba(29, 33, 48, 0.04) 0px 3px 3px -1.5px,
+    rgba(29, 33, 48, 0.04) 0px 5px 5px -2.5px,
+    rgba(70, 216, 255, 0.08) 0px 10px 10px -5px,
+    rgba(70, 216, 255, 0.08) 0px 24px 24px -8px;
+  --shadow-lime-glow: rgba(29, 33, 48, 0.08) 0px 0px 0px 1px,
+    rgba(29, 33, 48, 0.04) 0px 1px 1px -1px,
+    rgba(29, 33, 48, 0.04) 0px 2px 2px -1px,
+    rgba(29, 33, 48, 0.04) 0px 3px 3px -1.5px,
+    rgba(29, 33, 48, 0.04) 0px 5px 5px -2.5px,
+    rgba(183, 255, 90, 0.08) 0px 10px 10px -5px,
+    rgba(183, 255, 90, 0.08) 0px 24px 24px -8px;
+
+  /* Surfaces */
+  --surface-canvas: #fcfcfd;
+  --surface-card: #fcfcfd;
+  --surface-dark-section: #0a0d16;
+  --surface-amber-card: #ffd888;
+}

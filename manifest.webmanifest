@@ -1,0 +1,17 @@
+{
+  "name": "成语接龙 · 闯关",
+  "short_name": "成语接龙",
+  "description": "单人打 AI 的成语接龙闯关小游戏",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fcfcfd",
+  "theme_color": "#fcfcfd",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

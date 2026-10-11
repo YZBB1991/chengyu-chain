@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "成语接龙",
+    "navigationBarBackgroundColor": "#FAFAF7",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FAFAF7"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

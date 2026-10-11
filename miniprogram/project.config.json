@@ -1,0 +1,21 @@
+{
+  "description": "成语接龙小程序壳（web-view 内嵌 H5 站点）",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "bigPackageSizeSupport": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.4.0",
+  "appid": "wx4bd237a397a073bb",
+  "projectname": "chengyu-chain",
+  "condition": {}
+}
